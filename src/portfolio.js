@@ -309,7 +309,46 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url: "https://education.oracle.com/oracle-cloud-infrastructure-2023-ai-foundations-associate/pexam_1Z0-1122-23"
+          url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=08E92FAABE802C2190527751080CEB921D90EF95A6CDDBBB6F1AB6E4A292353F"
+        }
+      ]
+    },
+    {
+      title: "Oracle Certified Associate, Java SE 8 Programmer",
+      subtitle:
+        "I deepened my understanding of Java SE 8’s features, focusing on object-oriented concepts, Java language essentials, and the Java platform. I also embraced functional programming with lambda expressions, enhancing my ability to write efficient and maintainable code.",
+      image: require("./assets/images/oraclelogo.png"),
+      imageAlt: "Oracle Logo",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=524AE766E44F12A75E0ED48B31C030ABD200757FD1CED4CF714883DBC5219D38"
+        }
+      ]
+    },
+    {
+      title: "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+      subtitle:
+        "This certification helped me with a strong understanding of Large Language Models (LLMs) and proficiency in using OCI Generative AI Service. It equips me with advanced techniques like Retrieval-Augmented Generation, Semantic Search, Vector databases, and LangChain. I learned how to build, trace, evaluate, and deploy LLM applications effectively.",
+      image: require("./assets/images/oraclelogo.png"),
+      imageAlt: "OCI AI Certificate Logo",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=062BBBEFB06A7C8A95DE55CA300FB768F7807A1E6DA5EC2E77B6BC9B027137FD"
+        }
+      ]
+    }, 
+    {
+      title: "Certified SAFe® 6 Agile Practitioner",
+      subtitle:
+        "The Certified SAFe® 6 Practitioner certification equipped me with skills in customer engagement, task planning, value delivery, feedback collection, and continuous process improvement.",
+      image: require("./assets/images/SAFe-logo.png"),
+      imageAlt: "OCI AI Certificate Logo",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.credly.com/badges/915abff1-5dd0-47ad-b620-f336efff5ae1/print"
         }
       ]
     }
