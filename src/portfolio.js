@@ -139,7 +139,7 @@ const educationInfo = {
         emoji(
           "🎙️ Toastmasters Virtuoso: Mastered eloquence and confidence."
         )
-        
+
       ]
     }
   ]
@@ -280,7 +280,7 @@ const achievementSection = {
         {
           name: "Certification[Basic]",
           url: "https://www.credly.com/badges/695fd834-18e3-40f4-9d8a-e54c5dfc686c/linked_in_profile"
-        }, 
+        },
         {
           name: "Certification[Advanced]",
           url: "https://www.credly.com/badges/a456efd2-801d-4fdf-97b1-467099091af5/linked_in_profile"
@@ -338,7 +338,7 @@ const achievementSection = {
           url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=062BBBEFB06A7C8A95DE55CA300FB768F7807A1E6DA5EC2E77B6BC9B027137FD"
         }
       ]
-    }, 
+    },
     {
       title: "Certified SAFe® 6 Agile Practitioner",
       subtitle:
