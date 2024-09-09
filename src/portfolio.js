@@ -126,20 +126,16 @@ const educationInfo = {
     {
       schoolName: "National Institute of Technology Silchar",
       logo: require("./assets/images/nitSilcharLogo.png"),
-      subHeader: "Bachelor of Technology in Electronics and Communication Engineering",
+      subHeader:
+        "Bachelor of Technology in Electronics and Communication Engineering",
       duration: "July 2019 - April 2023",
       desc: "Participated in the research of Ultra Wide Band Antennas and published 1 paper.",
       descBullets: [
         emoji(
           "🌟 NCC Commissioned Officer: Led with valor in the 3rd Assam Battalion."
         ),
-        emoji(
-          "🌠 Society Maestro: Orchestrated college events with finesse."
-        ),
-        emoji(
-          "🎙️ Toastmasters Virtuoso: Mastered eloquence and confidence."
-        )
-
+        emoji("🌠 Society Maestro: Orchestrated college events with finesse."),
+        emoji("🎙️ Toastmasters Virtuoso: Mastered eloquence and confidence.")
       ]
     }
   ]
@@ -213,7 +209,8 @@ const bigProjects = {
     {
       image: require("./assets/images/splitIsFunLogo1.png"),
       projectName: "Split is Fun",
-      projectDesc: "Split is Fun app helps roommates, travelers and friends organize their shared expenses so everyone knows who owes who.",
+      projectDesc:
+        "Split is Fun app helps roommates, travelers and friends organize their shared expenses so everyone knows who owes who.",
       footerLink: [
         {
           name: "Code Link",
@@ -225,7 +222,8 @@ const bigProjects = {
     {
       image: require("./assets/images/covidTrackerLogo.png"),
       projectName: "Covid Tracker Application",
-      projectDesc: "Developed an android application to track Covid-19 cases using Android Studio (JAVA).",
+      projectDesc:
+        "Developed an android application to track Covid-19 cases using Android Studio (JAVA).",
       footerLink: [
         {
           name: "Code Link",
@@ -236,7 +234,8 @@ const bigProjects = {
     {
       image: require("./assets/images/wikipediaSearchEngine.png"),
       projectName: "Wikipedia Search Engine",
-      projectDesc: "A simple search engine built in JAVA capable of building optimised positional index for the Wikipedia dump & perform field queries. The search returns a ranked list of articles in real time.",
+      projectDesc:
+        "A simple search engine built in JAVA capable of building optimised positional index for the Wikipedia dump & perform field queries. The search returns a ranked list of articles in real time.",
       footerLink: [
         {
           name: "Code Link",
@@ -301,7 +300,8 @@ const achievementSection = {
       ]
     },
     {
-      title: "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+      title:
+        "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
       subtitle:
         "This certification helped me gain AI concepts and Workloads, ML and Deep Learning, Generative AI and LLMs and OCI AI services.",
       image: require("./assets/images/oraclelogo.png"),
@@ -327,7 +327,8 @@ const achievementSection = {
       ]
     },
     {
-      title: "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+      title:
+        "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
       subtitle:
         "This certification helped me with a strong understanding of Large Language Models (LLMs) and proficiency in using OCI Generative AI Service. It equips me with advanced techniques like Retrieval-Augmented Generation, Semantic Search, Vector databases, and LangChain. I learned how to build, trace, evaluate, and deploy LLM applications effectively.",
       image: require("./assets/images/oraclelogo.png"),
