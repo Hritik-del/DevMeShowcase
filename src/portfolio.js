@@ -301,7 +301,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate",
+      title: "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
       subtitle:
         "This certification helped me gain AI concepts and Workloads, ML and Deep Learning, Generative AI and LLMs and OCI AI services.",
       image: require("./assets/images/oraclelogo.png"),
@@ -309,7 +309,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=08E92FAABE802C2190527751080CEB921D90EF95A6CDDBBB6F1AB6E4A292353F"
+          url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=062BBBEFB06A7C8A95DE55CA300FB768F7807A1E6DA5EC2E77B6BC9B027137FD"
         }
       ]
     },
