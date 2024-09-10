@@ -7,20 +7,18 @@ on:
       - master
 
 jobs:
-  build:
+  setup:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout Repository
         uses: actions/checkout@v2
         with:
           persist-credentials: false
 
-      - name: Set up Node.js 🔧
+      - name: Set up Node.js
         uses: actions/setup-node@v3.8.1
         with:
           node-version: 18.x
 
-      - name: Install dependencies 🔧
+      - name: Install Dependencies
         run: npm install
-
-      # Add other steps here if needed, such as testing or building the project
