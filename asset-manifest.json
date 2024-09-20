@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/DevMeShowcase/static/css/main.0e0d60ab.css",
-    "main.js": "/DevMeShowcase/static/js/main.c35a1ed9.js",
-    "static/css/64.bba8fa55.chunk.css": "/DevMeShowcase/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.56dc6704.chunk.js": "/DevMeShowcase/static/js/64.56dc6704.chunk.js",
-    "static/css/769.b3cbb36b.chunk.css": "/DevMeShowcase/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.bda0d7b7.chunk.js": "/DevMeShowcase/static/js/769.bda0d7b7.chunk.js",
+    "main.css": "/DevMeShowcase/static/css/main.6b58ee31.css",
+    "main.js": "/DevMeShowcase/static/js/main.84cc9b6e.js",
+    "static/css/487.bb36206c.chunk.css": "/DevMeShowcase/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/DevMeShowcase/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/DevMeShowcase/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.567a0b93.chunk.js": "/DevMeShowcase/static/js/990.567a0b93.chunk.js",
     "static/media/SAFe-logo.png": "/DevMeShowcase/static/media/SAFe-logo.6147d8d93e55da98bc17.png",
     "static/media/Montserrat-Regular.ttf": "/DevMeShowcase/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/nitSilcharLogo.png": "/DevMeShowcase/static/media/nitSilcharLogo.b39ed1bb4dd41d5146e8.png",
@@ -24,15 +24,15 @@
     "static/media/skill.svg": "/DevMeShowcase/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/DevMeShowcase/index.html",
     "static/media/talksCardBack.svg": "/DevMeShowcase/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.0e0d60ab.css.map": "/DevMeShowcase/static/css/main.0e0d60ab.css.map",
-    "main.c35a1ed9.js.map": "/DevMeShowcase/static/js/main.c35a1ed9.js.map",
-    "64.bba8fa55.chunk.css.map": "/DevMeShowcase/static/css/64.bba8fa55.chunk.css.map",
-    "64.56dc6704.chunk.js.map": "/DevMeShowcase/static/js/64.56dc6704.chunk.js.map",
-    "769.b3cbb36b.chunk.css.map": "/DevMeShowcase/static/css/769.b3cbb36b.chunk.css.map",
-    "769.bda0d7b7.chunk.js.map": "/DevMeShowcase/static/js/769.bda0d7b7.chunk.js.map"
+    "main.6b58ee31.css.map": "/DevMeShowcase/static/css/main.6b58ee31.css.map",
+    "main.84cc9b6e.js.map": "/DevMeShowcase/static/js/main.84cc9b6e.js.map",
+    "487.bb36206c.chunk.css.map": "/DevMeShowcase/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/DevMeShowcase/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/DevMeShowcase/static/css/990.c6a7ee28.chunk.css.map",
+    "990.567a0b93.chunk.js.map": "/DevMeShowcase/static/js/990.567a0b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e0d60ab.css",
-    "static/js/main.c35a1ed9.js"
+    "static/css/main.6b58ee31.css",
+    "static/js/main.84cc9b6e.js"
   ]
 }
