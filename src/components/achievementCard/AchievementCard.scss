@@ -18,6 +18,9 @@
   line-height: 1.5rem;
 }
 .certificate-card {
+  flex: 1 1 calc(33.333% - 20px); /* Make each card take up 1/3rd of the row, minus gap */
+  max-width: calc(33.333% - 20px); /* Ensure a max width of 1/3rd */
+  box-sizing: border-box; /* Include padding and borders in the width */
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   padding: 1.5rem;
@@ -45,9 +48,10 @@
   align-items: center;
 }
 .achievement-cards-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap into new rows */
+  justify-content: center; /* Align cards to the center */
+  gap: 20px; /* Space between cards */
 }
 .certificate-card-footer {
   display: flex;
@@ -74,4 +78,19 @@
 }
 span.certificate-tag:hover {
   background: $buttonHover;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .certificate-card {
+    flex: 1 1 calc(50% - 20px); /* Show 2 cards per row on medium screens */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .certificate-card {
+    flex: 1 1 calc(100% - 20px); /* Full-width on very small screens */
+    max-width: calc(100% - 20px);
+  }
 }

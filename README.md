@@ -14,3 +14,5 @@ Information about my formal education, certifications, and any relevant coursewo
 
 # Connect with Me:
 Feel free to explore my portfolio and reach out if you have any questions, collaboration ideas, or opportunities. Let’s build something great together!
+
+To run it do : npm run start
