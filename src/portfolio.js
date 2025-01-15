@@ -23,7 +23,7 @@ const greeting = {
   username: "Hritik Agrahari",
   title: "Hi all, I'm Hritik",
   subTitle: emoji(
-    "🚀 Passionate Full Stack Sorcerer 🧙‍♂️, weaving Cloud-based spells with Spring, JavaScript, Java, Kotlin, and a sprinkle of enchanting libraries. ✨"
+    "🚀 Full Stack Developer with a passion for building AI-powered apps. Skilled in Java, JavaScript, Node.js, Python, and Android development. Ready to craft seamless web and mobile experiences with modern tools and tech. 💻📱"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ZGKw8BHRPFdGK5TzBefjTWNGtoN4mjmHabcd/view?usp=sharing", // Set to empty to hide the button
@@ -47,15 +47,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WITH A PASSION FOR AI AND ANDROID DEVELOPMENT",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build interactive and responsive web and mobile applications with modern technologies like Spring, JavaScript, and Node.js."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Create intelligent AI-driven applications using Retrieval-Augmented Generation (RAG) and multi-source data tools to enhance productivity."
+
+    ),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Oracle Cloud"
-    )
+      "⚡ Design Progressive Web Applications (PWA) and Single Page Applications (SPA) with a focus on performance and scalability."
+    ),
+    emoji(
+      "⚡ Develop scalable microservices and cloud-based apps, integrating services such as Firebase, AWS, and Oracle Cloud."
+    ),
+    emoji(
+      "⚡ Expertise in Android development, from building high-performance apps to integrating complex native code and ensuring stability."
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -77,10 +85,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "nodejs",
@@ -146,17 +150,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Android Development", //Insert stack or technology you have experience in
+      Stack: "Full Stack Web Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Microservices based web apps",
-      progressPercentage: "85%"
+      Stack: "AI-Powered Applications (RAG, Chatbots, Contextual Retrieval)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%"
-    }
+      Stack: "Android Development",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Microservices-Based Web Apps",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Programming (Java, JavaScript, Python, Node.js, SQL, PL/SQL)",
+      progressPercentage: "90%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -172,8 +184,9 @@ const workExperiences = {
       companylogo: require("./assets/images/oraclelogo.png"),
       desc: "Enhanced Oracle Primavera Cloud, architected a lightning-fast tender marketplace app, and engineered robust microservices. Leveraged SQL, PL/SQL, JavaScript, HTML, and CSS to create an intuitive bidding platform.",
       descBullets: [
-        "Oracle Primavera Cloud Enhancement: Boosted performance by 83%.",
-        "Tender Marketplace App: Oracle APEX magic—20x speed, 100x code reduction."
+        "AI Chatbot for Oracle Primavera Cloud — Leveraged RAG with Python, Cohere API, and Oracle Cloud for context-driven retrieval, embedding support docs, and integrating multi-source data tools for dynamic information flow. Improved client retention by 15-20%.",
+        "Oracle Primavera Cloud Enhancement — Boosted platform performance by 63%, optimizing LLM outputs for context-aware prompt generation using Java, SQL, and Spring.",
+        "Tender Marketplace App — Architected a cloud-based solution using Oracle APEX, JavaScript, and PL/SQL, achieving 20x speed and 100x code reduction."
       ]
     },
     {
@@ -182,8 +195,9 @@ const workExperiences = {
       companylogo: require("./assets/images/upjaoLogo.png"),
       desc: "Built a blazing-fast, crash-resistant app used by computer vision that saved developers 10,000 hours (thanks to automated data fetching and a rock-solid Room database). Even ninjas would struggle to reverse engineer it (thanks to native C++ integration).",
       descBullets: [
-        "Automated data fetching saved a staggering 10,000 hours of developer time.",
-        "Built an app with a near-perfect 99% crash-free rate using Room Database."
+        "Automated Data Fetching — Saved 10,000+ developer hours by automating API data fetching and implementing efficient sharing features, nearly eliminating data theft.",
+        "Rock-Solid App Stability — Achieved a 99% crash-free rate using Room Database and redefined the app with MVVM architecture for seamless scaling and automation.",
+        "Native C++ Integration — Enhanced the app with image processing for the computer vision team, making reverse engineering nearly impossible and boosting performance."
       ]
     }
   ]
