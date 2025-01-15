@@ -50,6 +50,41 @@ export default function Achievement() {
               );
             })}
           </div>
+          <div></div>
+          <div className="achievement-cards-div">
+            {achievementSection.achievementsCardsRow2.map((card, i) => {
+              return (
+                <AchievementCard
+                  key={i}
+                  isDark={isDark}
+                  cardInfo={{
+                    title: card.title,
+                    description: card.subtitle,
+                    image: card.image,
+                    imageAlt: card.imageAlt,
+                    footer: card.footerLink
+                  }}
+                />
+              );
+            })}
+          </div>
+          <div className="achievement-cards-div">
+            {achievementSection.achievementsCardsRow3.map((card, i) => {
+              return (
+                <AchievementCard
+                  key={i}
+                  isDark={isDark}
+                  cardInfo={{
+                    title: card.title,
+                    description: card.subtitle,
+                    image: card.image,
+                    imageAlt: card.imageAlt,
+                    footer: card.footerLink
+                  }}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </Fade>

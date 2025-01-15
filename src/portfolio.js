@@ -26,7 +26,7 @@ const greeting = {
     "🚀 Passionate Full Stack Sorcerer 🧙‍♂️, weaving Cloud-based spells with Spring, JavaScript, Java, Kotlin, and a sprinkle of enchanting libraries. ✨"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ZGKw8BHRPFdGK5TzBefjTWNGtoN4mjmH/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ZGKw8BHRPFdGK5TzBefjTWNGtoN4mjmHabcd/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -128,7 +128,6 @@ const educationInfo = {
       logo: require("./assets/images/nitSilcharLogo.png"),
       subHeader:
         "Bachelor of Technology in Electronics and Communication Engineering",
-      duration: "July 2019 - April 2023",
       desc: "Participated in the research of Ultra Wide Band Antennas and published 1 paper.",
       descBullets: [
         emoji(
@@ -171,7 +170,6 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Oracle",
       companylogo: require("./assets/images/oraclelogo.png"),
-      date: "Jan 2023 – Present",
       desc: "Enhanced Oracle Primavera Cloud, architected a lightning-fast tender marketplace app, and engineered robust microservices. Leveraged SQL, PL/SQL, JavaScript, HTML, and CSS to create an intuitive bidding platform.",
       descBullets: [
         "Oracle Primavera Cloud Enhancement: Boosted performance by 83%.",
@@ -182,7 +180,6 @@ const workExperiences = {
       role: "Android Developer",
       company: "Upjao",
       companylogo: require("./assets/images/upjaoLogo.png"),
-      date: "Dec 2021 – July 2022",
       desc: "Built a blazing-fast, crash-resistant app used by computer vision that saved developers 10,000 hours (thanks to automated data fetching and a rock-solid Room database). Even ninjas would struggle to reverse engineer it (thanks to native C++ integration).",
       descBullets: [
         "Automated data fetching saved a staggering 10,000 hours of developer time.",
@@ -298,7 +295,9 @@ const achievementSection = {
           url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=6329DF89D7F6C142CC55CADED13809220F7079459D7A8DD57C89B8CE24A2C282"
         }
       ]
-    },
+    }
+  ],
+  achievementsCardsRow2: [
     {
       title:
         "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
@@ -339,7 +338,9 @@ const achievementSection = {
           url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=062BBBEFB06A7C8A95DE55CA300FB768F7807A1E6DA5EC2E77B6BC9B027137FD"
         }
       ]
-    },
+    }
+  ],
+  achievementsCardsRow3: [
     {
       title: "Certified SAFe® 6 Agile Practitioner",
       subtitle:
